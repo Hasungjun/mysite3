@@ -33,7 +33,7 @@
 		<property name="driverClassName"
 			value="com.mysql.jdbc.Driver" />
 		<property name="url"
-			value="jdbc:mysql://localhost:3306/webdb?characterEncoding=utf8&amp;serverTimezone=UTC" />
+			value="jdbc:mysql://lx0:3306/webdb?characterEncoding=utf8&amp;serverTimezone=UTC" />
 		<property name="username" value="webdb" />
 		<property name="password" value="webdb" />
 		<property name="initialSize" value="20" />
