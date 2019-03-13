@@ -1,0 +1,24 @@
+1. user 테이블에 role enum('ADMIN', 'USER') 추가
+2. 회원가입 쿼리 수정 기본은 'USER'
+3. 'ADMIN' 은 직접 쿼리로 추가
+4. UserVo에 role 필드 추가
+5. 로긴할 때, role도 가져와서 세션에 추가하기
+6. classspath:applicationContext.xml 위치 바꾸기
+7.<load-on-startup>1</load-on-startup>
+8.<property name="url" value="jdbc:mysql://localhost:3306/webdb?characterEncoding=utf8&amp;serverTimezone=UTC" />
+9.datasource 설정
+  <property name="initialSize" value="20" />
+  <property name="maxActive" value="20" />
+  https://d2.naver.com/helloworld/5102792
+10. guestbook.xml "user.getList2"
+11. UserController    HttpSession session 처리
+                            접근제어 처리
+12. user.xml           MySQL 함수 password() 암호화 저장
+                           "user.update"
+13. board 전체적으로 소스리뷰
+     -> Service에서 페이징할 변수들을 결정하는 부분
+     -> Service에서 그 변수와 List를 Map에 넣어서 넘기는 거
+     -> board.xml 동적쿼리(Dynamic Query)
+     -> Controller에서 접근제어, HttpSession 사용처를 확인
+
+ 
