@@ -16,7 +16,7 @@
 			<div id="content">
 				<div id="site-introduction">
 					<img id="profile" src="${pageContext.servletContext.contextPath }${siteVo.profilee}" style="width : 200px">
-					<h2>${siteVo.welcome }!!</h2>
+					<h2>${siteVo.welcome }</h2>
 					<p>
 						${siteVo.descc }
 						<br><br>
